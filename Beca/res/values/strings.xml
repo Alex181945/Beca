@@ -8,11 +8,13 @@
     <string name="mensaje">Bienvenido al 
         Sistema Único de Beneficiarios de Educación Superior (SUBES)</string>
     <string name="btmesaje">Convocatoria</string>
-    
+
     <!-- Activity Inicio -->
     <string name="title_activity_inicio">Convocatoria</string>
     <string name="info">Información</string>
     <string name="becas">Becas</string>
     <string name="tips">Tips</string>
-    
+    <string name="title_activity_becas">BecasActivity</string>
+    <string name="hello_world">Hello world!</string>
+
 </resources>
