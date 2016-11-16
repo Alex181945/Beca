@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
+    <!-- Activity Main -->
     <string name="app_name">Beca</string>
     <string name="action_settings">Settings</string>
     <string name="bienvenida">BIENVENIDO</string>
@@ -8,5 +9,10 @@
         Sistema Único de Beneficiarios de Educación Superior (SUBES)</string>
     <string name="btmesaje">Convocatoria</string>
     
-    <string name="title_activity_inicio">InicioActivity</string>
+    <!-- Activity Inicio -->
+    <string name="title_activity_inicio">Convocatoria</string>
+    <string name="info">Información</string>
+    <string name="becas">Becas</string>
+    <string name="tips">Tips</string>
+    
 </resources>
