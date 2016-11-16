@@ -26,6 +26,10 @@
             android:name=".InicioActivity"
             android:label="@string/title_activity_inicio" >
         </activity>
+        <activity
+            android:name=".BecasActivity"
+            android:label="@string/title_activity_becas" >
+        </activity>
     </application>
 
 </manifest>
