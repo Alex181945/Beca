@@ -9,21 +9,13 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context=".InicioActivity" >
 
-    <TextView
-        android:id="@+id/tv1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_centerHorizontal="true"
-        android:fontFamily="Inconsolata"
-        android:text="@string/bienvenida" />
-
     <Button
         android:id="@+id/btn1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/tv1"
         android:layout_centerHorizontal="true"
         android:fontFamily="Inconsolata"
+        android:onClick="Info"
         android:text="@string/info" />
 
     <FrameLayout
@@ -36,9 +28,8 @@
         android:id="@+id/tv2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_centerHorizontal="true"
         android:fontFamily="Inconsolata"
-        android:text="@string/bienvenida" />
+        android:gravity="center" />
         
     </FrameLayout>
     
