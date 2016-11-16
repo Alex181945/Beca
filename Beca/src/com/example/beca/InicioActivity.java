@@ -2,6 +2,7 @@ package com.example.beca;
 
 import android.os.Bundle;
 import android.app.Activity;
+import android.content.Intent;
 import android.view.Menu;
 import android.view.View;
 import android.widget.TextView;
@@ -35,6 +36,11 @@ public class InicioActivity extends Activity {
 		
 		tv2.setText(a);
 		
+	}
+	
+	public void Becas(View view){
+		Intent x =new Intent (this,BecasActivity.class);
+    	startActivity(x);
 	}
 
 }
