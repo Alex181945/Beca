@@ -14,7 +14,7 @@
         android:label="@string/app_name"
         android:theme="@style/AppTheme" >
         <activity
-            android:name=".MainActivity"
+            android:name="com.example.beca.MainActivity"
             android:label="@string/app_name" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -23,12 +23,16 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".InicioActivity"
+            android:name="com.example.beca.InicioActivity"
             android:label="@string/title_activity_inicio" >
         </activity>
         <activity
-            android:name=".BecasActivity"
+            android:name="com.example.beca.BecasActivity"
             android:label="@string/title_activity_becas" >
+        </activity>
+        <activity
+            android:name="com.example.beca.ManutencionActivity"
+            android:label="@string/title_activity_manutencion" >
         </activity>
     </application>
 

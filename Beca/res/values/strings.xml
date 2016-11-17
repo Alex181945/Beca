@@ -14,7 +14,15 @@
     <string name="info">Información</string>
     <string name="becas">Becas</string>
     <string name="tips">Tips</string>
+    
     <string name="title_activity_becas">BecasActivity</string>
     <string name="hello_world">Hello world!</string>
+    
+       <!-- Activity Manutención -->
+    <string name="title_activity_manutencion">ManutencionActivity</string>
+    
+   
+    
+ 
 
 </resources>

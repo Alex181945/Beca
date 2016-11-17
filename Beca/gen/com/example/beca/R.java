@@ -46,11 +46,13 @@ public final class R {
         public static final int activity_becas=0x7f030000;
         public static final int activity_inicio=0x7f030001;
         public static final int activity_main=0x7f030002;
+        public static final int activity_manutencion=0x7f030003;
     }
     public static final class menu {
         public static final int becas=0x7f070000;
         public static final int inicio=0x7f070001;
         public static final int main=0x7f070002;
+        public static final int manutencion=0x7f070003;
     }
     public static final class string {
         public static final int action_settings=0x7f050001;
@@ -68,6 +70,9 @@ public final class R {
         /**  Activity Inicio 
          */
         public static final int title_activity_inicio=0x7f050005;
+        /**  Activity Manutención 
+         */
+        public static final int title_activity_manutencion=0x7f05000b;
     }
     public static final class style {
         /** 

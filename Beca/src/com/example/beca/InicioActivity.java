@@ -42,5 +42,25 @@ public class InicioActivity extends Activity {
 		Intent x =new Intent (this,BecasActivity.class);
     	startActivity(x);
 	}
+	
+	public void Req(View view){
+		
+		String b = "1. Ser mexicano." +
+				"2. Estar inscrito en una IPES de México para iniciar o continuar" +
+				" estudios de nivel superior." +
+				"3. Provenir de un hogar cuyo ingreso sea igual o menor " +
+				"a cuatro salarios mínimos per cápita (por persona) vigentes al momento de solicitar la beca." +
+				"4. Ser alumno regular (no adeudar asignaturas de ciclos escolares anteriores y cursar las materias " +
+				"de acuerdo con el plan de estudios que corresponda. 5.-Promedio general mínimo de calificación de" +
+				" 8.0 (ocho) o su equivalente en una escala de 0 (cero) a 10 (diez)6. Los solicitantes no deben haber " +
+				"concluido estudios de licenciatura, ni contar con título profesional de ese nivel o superior." +
+				"7. Postularse como aspirante a través del registro de su solicitud de beca en el Sistema Único de Beneficiarios de Educación Superior (SUBES), en la " +
+				"página electrónica: www.subes.sep.gob.mx";
+		
+		tv2.setText(b);
+
+		
+		
+	}
 
 }
