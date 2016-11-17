@@ -23,6 +23,7 @@
         android:layout_below="@+id/tv1"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="130dp"
+        android:onClick="Manut"
         android:text="Manutencion" />
     
     <Button 

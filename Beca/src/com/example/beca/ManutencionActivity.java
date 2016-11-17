@@ -16,6 +16,7 @@ public class ManutencionActivity extends Activity {
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_manutencion);
+		
 		tv2 = (TextView)findViewById(R.id.tv2);
 	}
 
@@ -32,8 +33,9 @@ public class ManutencionActivity extends Activity {
     }
 	
 	public void req(View view){
-		
-		tv2.setText("b");
+		Intent x =new Intent (this,ManutencionActivity.class);
+    	startActivity(x);
+	
 		
 	}
 	

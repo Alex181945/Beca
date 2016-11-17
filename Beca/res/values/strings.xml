@@ -20,6 +20,7 @@
     
        <!-- Activity Manutención -->
     <string name="title_activity_manutencion">ManutencionActivity</string>
+    <string name="req">Requisitos</string>
     
    
     

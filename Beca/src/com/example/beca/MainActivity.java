@@ -34,5 +34,6 @@ public class MainActivity extends Activity {
     	Intent x =new Intent (this,InicioActivity.class);
     	startActivity(x);
     }
+   
     
 }

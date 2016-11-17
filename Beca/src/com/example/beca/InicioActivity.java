@@ -59,8 +59,10 @@ public class InicioActivity extends Activity {
 		
 		tv2.setText(b);
 
-		
-		
+	}
+	public void Manutención (View view){
+		Intent x =new Intent (this,ManutencionActivity.class);
+    	startActivity(x);
 	}
 
 }

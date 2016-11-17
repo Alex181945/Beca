@@ -1,9 +1,11 @@
 package com.example.beca;
 
 import android.app.Activity;
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
 
 public class BecasActivity extends Activity {
 
@@ -19,6 +21,10 @@ public class BecasActivity extends Activity {
 		getMenuInflater().inflate(R.menu.becas, menu);
 		return true;
 	}
-
+	
+	public void Manut(View view){
+		Intent x =new Intent (this,ManutencionActivity.class);
+    	startActivity(x);
+	}
 
 }
