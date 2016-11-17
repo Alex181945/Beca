@@ -33,7 +33,7 @@ public class ManutencionActivity extends Activity {
 	
 	public void req(View view){
 		
-		tv2.setText("");
+		tv2.setText("b");
 		
 	}
 	
