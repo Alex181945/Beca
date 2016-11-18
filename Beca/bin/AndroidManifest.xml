@@ -34,6 +34,10 @@
             android:name="com.example.beca.ManutencionActivity"
             android:label="@string/title_activity_manutencion" >
         </activity>
+        <activity
+            android:name="com.example.beca.TipsActivity"
+            android:label="@string/title_activity_tips" >
+        </activity>
     </application>
 
 </manifest>

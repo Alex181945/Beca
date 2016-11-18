@@ -15,15 +15,23 @@
     <string name="becas">Becas</string>
     <string name="tips">Tips</string>
     
+    
+    <!-- Activity Becas -->
     <string name="title_activity_becas">BecasActivity</string>
     <string name="hello_world">Hello world!</string>
-    
-       <!-- Activity Manutención -->
+
+    <!-- Activity Manutención -->
     <string name="title_activity_manutencion">ManutencionActivity</string>
     <string name="req">Requisitos</string>
     
-   
     
- 
+     <!-- Activity Tips -->
+   <string name="title_activity_tips">TipsActivity</string>
+    <string name="tip1">Tip1</string>
+    <string name="tip2">Tip2</string>
+    <string name="tip3">Tip3</string>
+    
+    
+
 
 </resources>
