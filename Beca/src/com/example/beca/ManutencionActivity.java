@@ -27,17 +27,12 @@ public class ManutencionActivity extends Activity {
 		return true;
 	}
 	
-	public void cambioPantalla(View view){
-    	Intent x =new Intent (this,InicioActivity.class);
+	public void reg (View view){
+    	Intent x =new Intent (this,BecasActivity.class);
     	startActivity(x);
     }
 	
-	public void req(View view){
-		Intent x =new Intent (this,ManutencionActivity.class);
-    	startActivity(x);
 	
-		
-	}
 	
 
 }

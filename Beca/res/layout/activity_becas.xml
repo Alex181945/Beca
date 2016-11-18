@@ -32,6 +32,7 @@
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
         android:layout_below="@+id/btn1"
+        android:onClick="Trans"
         android:text="Transporte" />
     
     <Button 
@@ -40,6 +41,7 @@
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
         android:layout_alignParentBottom="true"
+        android:onClick="reg"
         android:text="Regresar" />
 
 
