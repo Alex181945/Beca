@@ -50,6 +50,7 @@
         android:layout_below="@+id/fl1"
         android:layout_alignParentRight="true"
         android:fontFamily="Inconsolata"
+        android:onClick="Tips"
         android:text="@string/tips" />
 
 </RelativeLayout>

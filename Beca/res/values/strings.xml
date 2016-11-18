@@ -27,9 +27,11 @@
     
      <!-- Activity Tips -->
    <string name="title_activity_tips">TipsActivity</string>
+   <string name="title">TIPS</string>
     <string name="tip1">Tip1</string>
     <string name="tip2">Tip2</string>
     <string name="tip3">Tip3</string>
+    <string name="tip4">Tip4</string>
     
     
 

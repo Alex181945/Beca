@@ -43,7 +43,15 @@ public class InicioActivity extends Activity {
     	startActivity(x);
 	}
 	
-	public void Req(View view){
+	public void Tips (View view){
+		Intent x =new Intent (this,TipsActivity.class);
+    	startActivity(x);
+	}
+	
+
+
+	
+	/*public void Req(View view){
 		
 		String b = "1. Ser mexicano." +
 				"2. Estar inscrito en una IPES de México para iniciar o continuar" +
@@ -59,10 +67,10 @@ public class InicioActivity extends Activity {
 		
 		tv2.setText(b);
 
-	}
-	public void Manutención (View view){
+	}*/
+	/*public void Manutención (View view){
 		Intent x =new Intent (this,ManutencionActivity.class);
     	startActivity(x);
-	}
+	}*/
 
 }
