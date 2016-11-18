@@ -43,15 +43,29 @@
         android:onClick="tip2"
         android:text="@string/tip2"   />
      
+     <TextView
+        android:id="@+id/tv3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btn2"
+        />
+     
      <Button
         android:id="@+id/btn3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:fontFamily="Inconsolata"
         android:layout_centerInParent="true"
-        android:layout_below="@+id/btn2"
+        android:layout_below="@+id/tv3"
         android:onClick="tip3"
         android:text="@string/tip3"   />
+     
+     <TextView
+        android:id="@+id/tv4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btn3"
+        />
      
      <Button
         android:id="@+id/btn4"
@@ -59,9 +73,17 @@
         android:layout_height="wrap_content"
         android:fontFamily="Inconsolata"
         android:layout_centerInParent="true"
-        android:layout_below="@+id/btn3"
+        android:layout_below="@+id/tv4"
         android:onClick="tip4"
         android:text="@string/tip4"   />
+     
+     
+     <TextView
+        android:id="@+id/tv5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btn4"
+        />
     
     
     

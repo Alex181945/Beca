@@ -12,7 +12,7 @@ import android.widget.TextView;
 public class TipsActivity extends Activity {
 	
 	
-	private TextView tv1,tv2;
+	private TextView tv1,tv2,tv3,tv4,tv5;
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
@@ -21,8 +21,11 @@ public class TipsActivity extends Activity {
 	
 		  tv1=(TextView) findViewById(R.id.tv1);
 		  tv2=(TextView) findViewById(R.id.tv2);
-		  /*tv3=(TextView) findViewById(R.id.tv3);
-		  tv4=(TextView) findViewById(R.id.tv4);*/
+		  tv3=(TextView) findViewById(R.id.tv3);
+		  tv4=(TextView) findViewById(R.id.tv4);
+		  tv5=(TextView) findViewById(R.id.tv5);
+
+		  
 	}
 	
 	@Override
@@ -45,7 +48,7 @@ public class TipsActivity extends Activity {
 	    		
 	    		tip1 =
 	    		
-	    		"PONER RECOMPENSAS\nDescansa cada 50-60 minutos y haz algo que te sea placentero durante 10 minutos:"+
+	    		"PONER RECOMPENSAS\nDescansa cada 50-60 minutos y haz algo que te sea placentero durante 10 minutos:\n"+
 	    		"•	Toma agua\n"+
 	    		"•	Pasea a tu perro\n"+
 	    		"•	Toma un aperitivo\n";
@@ -55,5 +58,64 @@ public class TipsActivity extends Activity {
 	    	
 	    	tv2.setText(tip1);
 	    }
+	 
+	 
+	 public void tip2 (View view){
+	    	
+	    	String tip2 = "";
+	    	
+	    	if(tv3.getText().toString().equals("")){
+	    		
+	    		tip2 =
+	    		
+	    				"ELIMINA DISTRACCIONES\n " +
+	    				"•	Evita redes sociales y WhatsApp. Esconde el móvil o apágalo.\n" +
+	    				"•	Si trabajas con el ordenador/laptop, usa programas o " +
+	    				"aplicaciones que bloquean el acceso a redes sociales \n" +
+	    				"•	Si estudias en la biblioteca, intenta ponerte en un lugar que no te permita distraerte.";
+
+	    		
+
+	    	}
+	    	
+	    	tv3.setText(tip2);
+	    }
+	 
+	 public void tip3 (View view){
+	    	
+	    	String tip3 = "";
+	    	
+	    	if(tv4.getText().toString().equals("")){
+	    		
+	    		tip3 =
+	    				"CREAR MAPAS MENTAL\n" +
+	    				"Los mapas mentales son una de las mejores formas de" +
+	    				"recordar la estructura de un contenido.\n" +
+	    				"Si tienes que desarrollar largos temas, te resultará una herramienta excelente.";
+	    	}
+	    	
+	    	tv4.setText(tip3);
+	    }
+	 
+	 
+	 public void tip4 (View view){
+	    	
+	    	String tip4 = "";
+	    	
+	    	if(tv5.getText().toString().equals("")){
+	    		
+	    		tip4 =
+	    				"LEE EN VOZ ALTA\n" +
+	    				"Lee en voz alta al repasar una lectura en lugar\n" +
+	    				" de estar en silencio, esto te ayudará a retener la información.";
+
+	    	}
+	    	
+	    	tv5.setText(tip4);
+	    }
+	 
+ 
+	 
+	 
 
 }
