@@ -26,7 +26,14 @@ public class ManutencionActivity extends Activity {
 		getMenuInflater().inflate(R.menu.manutencion, menu);
 		return true;
 	}
-	
+public void req(View view){
+		
+		String a = "1. Ser mexicano.\n"+
+        "2. Estar inscrito en una IPES de México para iniciar o continuar estudios de nivel superior.\n"+
+        "3. Provenir de un hogar cuyo ingreso sea igual o menor a cuatro salarios mínimos per cápita (por persona) vigentes al momento de solicitar la beca.";
+		
+		tv2.setText(a);
+}
 	public void reg (View view){
     	Intent x =new Intent (this,BecasActivity.class);
     	startActivity(x);
