@@ -91,7 +91,15 @@
         android:layout_below="@+id/btn4"
         />
     
-    
+     <Button
+        android:id="@+id/btn5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="Inconsolata"
+        android:layout_centerInParent="true"
+        android:layout_below="@+id/tv5"
+        android:onClick="reg"
+        android:text="Regresar"   />
     
     
     

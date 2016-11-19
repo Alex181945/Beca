@@ -38,6 +38,10 @@
             android:name="com.example.beca.TipsActivity"
             android:label="@string/title_activity_tips" >
         </activity>
+        <activity
+            android:name="com.example.beca.TransporteActivity"
+            android:label="@string/title_activity_transporte" >
+        </activity>
     </application>
 
 </manifest>

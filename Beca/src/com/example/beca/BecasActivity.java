@@ -26,6 +26,10 @@ public class BecasActivity extends Activity {
 		Intent x =new Intent (this,ManutencionActivity.class);
     	startActivity(x);
 	}
+	public void Trans (View view){
+		Intent x =new Intent (this,TransporteActivity.class);
+    	startActivity(x);
+	}
 	
 	
 	public void reg (View view){

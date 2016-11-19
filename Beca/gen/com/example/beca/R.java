@@ -34,11 +34,12 @@ public final class R {
         public static final int verdeagua=0x7f020005;
     }
     public static final class id {
-        public static final int action_settings=0x7f08000a;
+        public static final int action_settings=0x7f08000b;
         public static final int btn1=0x7f080001;
         public static final int btn2=0x7f080002;
         public static final int btn3=0x7f080003;
         public static final int btn4=0x7f080008;
+        public static final int btn5=0x7f08000a;
         public static final int fl1=0x7f080004;
         public static final int tv1=0x7f080000;
         public static final int tv2=0x7f080005;
@@ -52,6 +53,7 @@ public final class R {
         public static final int activity_main=0x7f030002;
         public static final int activity_manutencion=0x7f030003;
         public static final int activity_tips=0x7f030004;
+        public static final int activity_transporte=0x7f030005;
     }
     public static final class menu {
         public static final int becas=0x7f070000;
@@ -59,6 +61,7 @@ public final class R {
         public static final int main=0x7f070002;
         public static final int manutencion=0x7f070003;
         public static final int tips=0x7f070004;
+        public static final int transporte=0x7f070005;
     }
     public static final class string {
         public static final int action_settings=0x7f050001;
@@ -90,6 +93,7 @@ public final class R {
         /**  Activity Tips 
          */
         public static final int title_activity_tips=0x7f05000d;
+        public static final int title_activity_transporte=0x7f050013;
     }
     public static final class style {
         /** 

@@ -39,7 +39,10 @@ public class TipsActivity extends Activity {
 		Intent x =new Intent (this,ManutencionActivity.class);
     	startActivity(x);
 	}
-	
+	public void reg (View view){
+		Intent x =new Intent (this,InicioActivity.class);
+    	startActivity(x);
+	}
 	 public void tip1(View view){
 	    	
 	    	String tip1 = "";
