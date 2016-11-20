@@ -30,7 +30,16 @@ public void req(View view){
 		
 		String a = "1. Ser mexicano.\n"+
         "2. Estar inscrito en una IPES de México para iniciar o continuar estudios de nivel superior.\n"+
-        "3. Provenir de un hogar cuyo ingreso sea igual o menor a cuatro salarios mínimos per cápita (por persona) vigentes al momento de solicitar la beca.";
+        "3. Provenir de un hogar cuyo ingreso sea igual o menor a cuatro salarios mínimos per cápita (por persona) " +
+        "vigentes al momento de solicitar la beca.\n 4. Ser alumno regular (no adeudar asignaturas de ciclos escolares " +
+        "anteriores y cursar las materias de acuerdo con el plan de estudios que corresponda).\n " +
+        "5.-Promedio general mínimo de calificación de 8.0 (ocho) o su equivalente en una escala de" +
+        " 0 (cero) a 10 (diez). \n 6. Los solicitantes no deben haber concluido estudios de licenciatura, ni contar" +
+        "con título profesional de ese nivel o superior. \n" +
+        "7. Postularse como aspirante a través del registro de su solicitud de beca en el " +
+        "Sistema Único de Beneficiarios de Educación Superior (SUBES).";
+
+
 		
 		tv2.setText(a);
 }
