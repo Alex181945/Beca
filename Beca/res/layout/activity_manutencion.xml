@@ -1,5 +1,12 @@
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
+<ScrollView
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+
+
+<RelativeLayout 
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/fondoceleste"
@@ -51,6 +58,7 @@
         android:fontFamily="Inconsolata"
         android:layout_alignParentLeft="true"
         android:layout_alignParentBottom="true"
+         android:layout_below="@+id/fl1"
         android:onClick="cal"
         android:text="Calendario" />
     
@@ -67,3 +75,4 @@
    
 
 </RelativeLayout>
+</ScrollView>

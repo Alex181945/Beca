@@ -1,7 +1,13 @@
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+    
+
+<RelativeLayout 
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
+    android:layout_height="460dp"
     android:background="@drawable/fondoceleste"
     android:paddingBottom="@dimen/activity_vertical_margin"
     android:paddingLeft="@dimen/activity_horizontal_margin"
@@ -16,11 +22,36 @@
         android:layout_centerHorizontal="true"
         android:text="BECAS" />
     
+    
+    <Button
+        android:id="@+id/btn0"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv1"
+        android:layout_centerHorizontal="true"
+        android:onClick="regis"
+        android:text="Registro" />
+    
+     <FrameLayout
+        android:id="@+id/fl1"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_below="@+id/btn0" >
+        
+        <TextView
+        android:id="@+id/tv2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="Inconsolata"
+        android:gravity="center" />
+        
+    </FrameLayout>
+    
     <Button
         android:id="@+id/btn1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/tv1"
+        android:layout_below="@+id/fl1"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="130dp"
         android:onClick="Manut"
@@ -41,8 +72,10 @@
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
         android:layout_alignParentBottom="true"
+        android:layout_below="@+id/btn2"
         android:onClick="reg"
         android:text="Regresar" />
 
 
 </RelativeLayout>
+</ScrollView>

@@ -28,11 +28,19 @@ public class InicioActivity extends Activity {
 	
 	public void Info(View view){
 		
-		String a = "La Coordinación Nacional de Becas de Educación Superior (CNBES) C O N V O C A N,"
+		String a = "";
+		
+		if(tv2.getText().toString().equals(""))
+		{
+		
+		
+		
+		 a = "La Coordinación Nacional de Becas de Educación Superior (CNBES) C O N V O C A N,"
 				+ " a los/las estudiantes de Licenciatura y Técnico Superior Universitario (TSU)"
 				+ " que hayan ingresado o se encuentren realizando estudios en "
 				+ "Instituciones Públicas de Educación Superior (IPES) en México "
 				+ "para que obtengan una beca de Manutención.";
+		}
 		
 		tv2.setText(a);
 		
