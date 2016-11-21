@@ -10,26 +10,33 @@
     <string name="btmesaje">Convocatoria</string>
 
     <!-- Activity Inicio -->
+    
     <string name="title_activity_inicio">Convocatoria</string>
     <string name="info">Información</string>
     <string name="becas">Becas</string>
     <string name="tips">Tips</string>
+ 
 
     <!-- Activity Becas -->
-    <string name="title_activity_becas">BecasActivity</string>
-    <string name="hello_world">Hello world!</string>
+  
+    <string name="title_activity_becas">Becas</string>
+    
 
     <!-- Activity Manutención -->
-    <string name="title_activity_manutencion">ManutencionActivity</string>
+    
+    <string name="title_activity_manutencion">Manutencion</string>
     <string name="req">Requisitos</string>
 
     <!-- Activity Tips -->
-    <string name="title_activity_tips">TipsActivity</string>
+    <string name="title_activity_tips">Tips</string>
     <string name="title">TIPS</string>
     <string name="tip1">Tip1</string>
     <string name="tip2">Tip2</string>
     <string name="tip3">Tip3</string>
     <string name="tip4">Tip4</string>
-    <string name="title_activity_transporte">TransporteActivity</string>
+    
+    
+      <!-- Activity Transporte -->
+    <string name="title_activity_transporte">Transporte</string>
 
 </resources>
