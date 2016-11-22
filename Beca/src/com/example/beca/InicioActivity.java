@@ -9,14 +9,14 @@ import android.widget.TextView;
 
 public class InicioActivity extends Activity {
 	
-	TextView tv2;
+	TextView tv3;
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_inicio);
 		
-		tv2 = (TextView) findViewById(R.id.tv2);
+		tv3 = (TextView) findViewById(R.id.tv3);
 	}
 
 	@Override
@@ -30,7 +30,7 @@ public class InicioActivity extends Activity {
 		
 		String a = "";
 		
-		if(tv2.getText().toString().equals(""))
+		if(tv3.getText().toString().equals(""))
 		{
 		
 		
@@ -42,7 +42,7 @@ public class InicioActivity extends Activity {
 				+ "para que obtengan una beca de Manutención.";
 		}
 		
-		tv2.setText(a);
+		tv3.setText(a);
 		
 	}
 	

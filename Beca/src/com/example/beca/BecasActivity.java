@@ -10,14 +10,14 @@ import android.widget.TextView;
 
 public class BecasActivity extends Activity {
 	
-	TextView tv2;
+	TextView tv4;
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_becas);
 		
-		tv2 = (TextView) findViewById(R.id.tv2);
+		tv4 = (TextView) findViewById(R.id.tv4);
 	}
 
 	@Override
@@ -30,7 +30,7 @@ public class BecasActivity extends Activity {
 public void regis (View view){
 	String a = "";
 	
-	if(tv2.getText().toString().equals(""))
+	if(tv4.getText().toString().equals(""))
 	{
 		
 		
@@ -46,7 +46,7 @@ public void regis (View view){
 				"(http://www.cnbes.sep.gob.mx/2-principal/49-reg_subes)";
 	}
 		
-		tv2.setText(a);
+		tv4.setText(a);
 		
 	}
 	

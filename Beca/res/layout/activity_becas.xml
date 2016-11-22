@@ -8,26 +8,46 @@
 <RelativeLayout 
     android:layout_width="match_parent"
     android:layout_height="460dp"
-    android:background="@drawable/fondobca"
+    android:background="@drawable/beca"
     android:paddingBottom="@dimen/activity_vertical_margin"
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.example.beca.BecasActivity" >
-
+    
+    <TextView
+        android:id="@+id/tv0"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+      />
+    
     <TextView
         android:id="@+id/tv1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_centerHorizontal="true"
-        android:text="BECAS" />
+        android:layout_below="@+id/tv0"
+      />
+
+    <TextView
+        android:id="@+id/tv2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv1"
+         />
+    
+     <TextView
+        android:id="@+id/tv3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv2"
+         />
     
     
     <Button
         android:id="@+id/btn0"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/tv1"
+        android:layout_below="@+id/tv3"
         android:layout_centerHorizontal="true"
         android:onClick="regis"
         android:text="Registro" />
@@ -39,7 +59,7 @@
         android:layout_below="@+id/btn0" >
         
         <TextView
-        android:id="@+id/tv2"
+        android:id="@+id/tv4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:fontFamily="Inconsolata"
@@ -53,7 +73,7 @@
         android:layout_height="wrap_content"
         android:layout_below="@+id/fl1"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="130dp"
+        android:layout_marginTop="10dp"
         android:onClick="Manut"
         android:text="Manutencion" />
     
@@ -71,10 +91,32 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
-        android:layout_alignParentBottom="true"
         android:layout_below="@+id/btn2"
         android:onClick="reg"
         android:text="Regresar" />
+    
+    <TextView
+        android:id="@+id/tv5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btn3"
+      />
+    
+     <TextView
+        android:id="@+id/tv6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv5"
+      />
+     
+     <TextView
+        android:id="@+id/tv7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv6"
+      />
+    
+    
 
 
 </RelativeLayout>

@@ -9,13 +9,13 @@ import android.widget.TextView;
 
 public class TransporteActivity extends Activity {
 	
-	TextView  tv2;
+	TextView  tv4;
 	
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_transporte);
-		tv2 = (TextView)findViewById(R.id.tv2);
+		tv4 = (TextView)findViewById(R.id.tv4);
 	}
 
 	@Override
@@ -26,13 +26,19 @@ public class TransporteActivity extends Activity {
 	}
 	
 public void req(View view){
+	
+String a = "";
+	
+	if(tv4.getText().toString().equals(""))
+	{
 		
-		String a = "Los alumnos que requieran solicitar la beca complementaria “Apoya tu Transporte” deben:\n"+
+	 a = "Los alumnos que requieran solicitar la beca complementaria “Apoya tu Transporte” deben:\n"+
         "1.-Ser beneficiarios del programa PROSPERA, Programa de Inclusión Social.\n"+
         "2.-Comprobar un gasto por concepto de transporte para trasladarse a su\n"+
         "IPES por un monto igual o mayor a $500.00 (quinientos pesos 00/00 M.N.) mensuales.";
+	}
 		
-		tv2.setText(a);
+		tv4.setText(a);
 }
 
 

@@ -12,7 +12,7 @@ import android.widget.TextView;
 public class TipsActivity extends Activity {
 	
 	
-	private TextView tv1,tv2,tv3,tv4,tv5;
+	private TextView tv1,tv2,tv3,tv4,tv5,tv6,tv7;
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
@@ -24,6 +24,8 @@ public class TipsActivity extends Activity {
 		  tv3=(TextView) findViewById(R.id.tv3);
 		  tv4=(TextView) findViewById(R.id.tv4);
 		  tv5=(TextView) findViewById(R.id.tv5);
+		  tv6=(TextView) findViewById(R.id.tv6);
+		  tv7=(TextView) findViewById(R.id.tv7);
 
 		  
 	}
@@ -47,7 +49,7 @@ public class TipsActivity extends Activity {
 	    	
 	    	String tip1 = "";
 	    	
-	    	if(tv2.getText().toString().equals("")){
+	    	if(tv4.getText().toString().equals("")){
 	    		
 	    		tip1 =
 	    		
@@ -59,7 +61,7 @@ public class TipsActivity extends Activity {
 
 	    	}
 	    	
-	    	tv2.setText(tip1);
+	    	tv4.setText(tip1);
 	    }
 	 
 	 
@@ -67,7 +69,7 @@ public class TipsActivity extends Activity {
 	    	
 	    	String tip2 = "";
 	    	
-	    	if(tv3.getText().toString().equals("")){
+	    	if(tv5.getText().toString().equals("")){
 	    		
 	    		tip2 =
 	    		
@@ -81,14 +83,14 @@ public class TipsActivity extends Activity {
 
 	    	}
 	    	
-	    	tv3.setText(tip2);
+	    	tv5.setText(tip2);
 	    }
 	 
 	 public void tip3 (View view){
 	    	
 	    	String tip3 = "";
 	    	
-	    	if(tv4.getText().toString().equals("")){
+	    	if(tv6.getText().toString().equals("")){
 	    		
 	    		tip3 =
 	    				"CREAR MAPAS MENTAL\n" +
@@ -97,7 +99,7 @@ public class TipsActivity extends Activity {
 	    				"Si tienes que desarrollar largos temas, te resultará una herramienta excelente.";
 	    	}
 	    	
-	    	tv4.setText(tip3);
+	    	tv6.setText(tip3);
 	    }
 	 
 	 
@@ -105,7 +107,7 @@ public class TipsActivity extends Activity {
 	    	
 	    	String tip4 = "";
 	    	
-	    	if(tv5.getText().toString().equals("")){
+	    	if(tv7.getText().toString().equals("")){
 	    		
 	    		tip4 =
 	    				"LEE EN VOZ ALTA\n" +
@@ -114,7 +116,7 @@ public class TipsActivity extends Activity {
 
 	    	}
 	    	
-	    	tv5.setText(tip4);
+	    	tv7.setText(tip4);
 	    }
 	 
  

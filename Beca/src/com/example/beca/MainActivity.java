@@ -11,7 +11,7 @@ import android.widget.TextView;
 public class MainActivity extends Activity {
 	
 	private EditText et1,et2,et3;
-	private TextView tv1,tv2;
+	private TextView tv1,tv2,tv3;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

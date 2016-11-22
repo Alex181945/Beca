@@ -9,7 +9,7 @@ import android.widget.TextView;
 
 public class ManutencionActivity extends Activity {
 	
-	TextView  tv2;
+	TextView  tv4;
 	
 
 	@Override
@@ -17,7 +17,7 @@ public class ManutencionActivity extends Activity {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_manutencion);
 		
-		tv2 = (TextView)findViewById(R.id.tv2);
+		tv4 = (TextView)findViewById(R.id.tv4);
 	}
 
 	@Override
@@ -31,7 +31,7 @@ public void req(View view){
 
 String a = "";
 	
-	if(tv2.getText().toString().equals(""))
+	if(tv4.getText().toString().equals(""))
 	{
 	
 	
@@ -49,7 +49,7 @@ String a = "";
 
 
 		
-		tv2.setText(a);
+		tv4.setText(a);
 }
 
 

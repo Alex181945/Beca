@@ -8,7 +8,7 @@
 <RelativeLayout
     android:layout_width="match_parent"
     android:layout_height="460dp"
-    android:background="@drawable/fondobca"
+    android:background="@drawable/beca"
     android:paddingBottom="@dimen/activity_vertical_margin"
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
@@ -20,7 +20,22 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
-        android:text="@string/title"/>
+        />
+    <TextView
+        android:id="@+id/tv2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/tv1"
+        />
+    
+    <TextView
+        android:id="@+id/tv3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/tv2"
+        />
     
     <Button
         android:id="@+id/btn1"
@@ -28,12 +43,12 @@
         android:layout_height="wrap_content"
         android:fontFamily="Inconsolata"
         android:layout_centerInParent="true"
-        android:layout_below="@+id/tv1"
+        android:layout_below="@+id/tv3"
         android:onClick="tip1"
         android:text="@string/tip1"   />
     
      <TextView
-        android:id="@+id/tv2"
+        android:id="@+id/tv4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@+id/btn1"
@@ -45,12 +60,12 @@
         android:layout_height="wrap_content"
         android:fontFamily="Inconsolata"
         android:layout_centerInParent="true"
-        android:layout_below="@+id/tv2"
+        android:layout_below="@+id/tv4"
         android:onClick="tip2"
         android:text="@string/tip2"   />
      
      <TextView
-        android:id="@+id/tv3"
+        android:id="@+id/tv5"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@+id/btn2"
@@ -62,12 +77,12 @@
         android:layout_height="wrap_content"
         android:fontFamily="Inconsolata"
         android:layout_centerInParent="true"
-        android:layout_below="@+id/tv3"
+        android:layout_below="@+id/tv5"
         android:onClick="tip3"
         android:text="@string/tip3"   />
      
      <TextView
-        android:id="@+id/tv4"
+        android:id="@+id/tv6"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@+id/btn3"
@@ -79,16 +94,39 @@
         android:layout_height="wrap_content"
         android:fontFamily="Inconsolata"
         android:layout_centerInParent="true"
-        android:layout_below="@+id/tv4"
+        android:layout_below="@+id/tv6"
         android:onClick="tip4"
         android:text="@string/tip4"   />
      
      
      <TextView
-        android:id="@+id/tv5"
+        android:id="@+id/tv7"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@+id/btn4"
+        />
+     
+     <TextView
+        android:id="@+id/tv8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/tv7"
+        />
+     
+     <TextView
+        android:id="@+id/tv9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/tv8"
+        />
+     <TextView
+        android:id="@+id/tv10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/tv9"
         />
     
      <Button
@@ -97,7 +135,7 @@
         android:layout_height="wrap_content"
         android:fontFamily="Inconsolata"
         android:layout_centerInParent="true"
-        android:layout_below="@+id/tv5"
+        android:layout_below="@+id/tv8"
         android:onClick="reg"
         android:text="Regresar"   />
     

@@ -27,28 +27,35 @@ public final class R {
     }
     public static final class drawable {
         public static final int background_stripes=0x7f020000;
-        public static final int descarga=0x7f020001;
-        public static final int fondobca=0x7f020002;
-        public static final int fondobeca=0x7f020003;
-        public static final int fondoceleste=0x7f020004;
-        public static final int ic_launcher=0x7f020005;
-        public static final int templatebackground=0x7f020006;
-        public static final int verdeagua=0x7f020007;
+        public static final int beca=0x7f020001;
+        public static final int descarga=0x7f020002;
+        public static final int fondobca=0x7f020003;
+        public static final int fondobeca=0x7f020004;
+        public static final int fondoceleste=0x7f020005;
+        public static final int ic_launcher=0x7f020006;
+        public static final int templatebackground=0x7f020007;
+        public static final int verdeagua=0x7f020008;
     }
     public static final class id {
-        public static final int action_settings=0x7f08000c;
-        public static final int btn0=0x7f080001;
-        public static final int btn1=0x7f080004;
-        public static final int btn2=0x7f080005;
-        public static final int btn3=0x7f080006;
-        public static final int btn4=0x7f080009;
-        public static final int btn5=0x7f08000b;
-        public static final int fl1=0x7f080002;
-        public static final int tv1=0x7f080000;
-        public static final int tv2=0x7f080003;
-        public static final int tv3=0x7f080007;
-        public static final int tv4=0x7f080008;
+        public static final int action_settings=0x7f080012;
+        public static final int btn0=0x7f080004;
+        public static final int btn1=0x7f080007;
+        public static final int btn2=0x7f080008;
+        public static final int btn3=0x7f080009;
+        public static final int btn4=0x7f08000d;
+        public static final int btn5=0x7f080011;
+        public static final int fl1=0x7f080005;
+        public static final int tv0=0x7f080000;
+        public static final int tv1=0x7f080001;
+        public static final int tv10=0x7f080010;
+        public static final int tv2=0x7f080002;
+        public static final int tv3=0x7f080003;
+        public static final int tv4=0x7f080006;
         public static final int tv5=0x7f08000a;
+        public static final int tv6=0x7f08000b;
+        public static final int tv7=0x7f08000c;
+        public static final int tv8=0x7f08000e;
+        public static final int tv9=0x7f08000f;
     }
     public static final class layout {
         public static final int activity_becas=0x7f030000;
@@ -77,12 +84,11 @@ public final class R {
         public static final int info=0x7f050006;
         public static final int mensaje=0x7f050003;
         public static final int req=0x7f05000b;
-        public static final int tip1=0x7f05000e;
-        public static final int tip2=0x7f05000f;
-        public static final int tip3=0x7f050010;
-        public static final int tip4=0x7f050011;
+        public static final int tip1=0x7f05000d;
+        public static final int tip2=0x7f05000e;
+        public static final int tip3=0x7f05000f;
+        public static final int tip4=0x7f050010;
         public static final int tips=0x7f050008;
-        public static final int title=0x7f05000d;
         /**  Activity Becas 
          */
         public static final int title_activity_becas=0x7f050009;
@@ -97,7 +103,7 @@ public final class R {
         public static final int title_activity_tips=0x7f05000c;
         /**  Activity Transporte 
          */
-        public static final int title_activity_transporte=0x7f050012;
+        public static final int title_activity_transporte=0x7f050011;
     }
     public static final class style {
         /** 
