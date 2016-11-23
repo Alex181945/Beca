@@ -42,6 +42,14 @@
             android:name="com.example.beca.TransporteActivity"
             android:label="@string/title_activity_transporte" >
         </activity>
+        <activity
+            android:name="com.example.beca.FechaManActivity"
+            android:label="@string/title_activity_fecha_man" >
+        </activity>
+        <activity
+            android:name="com.example.beca.CalenManActivity"
+            android:label="@string/title_activity_calen_man" >
+        </activity>
     </application>
 
 </manifest>
