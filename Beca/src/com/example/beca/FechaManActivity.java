@@ -29,6 +29,11 @@ public class FechaManActivity extends Activity {
     	startActivity(x);
     }
 	
+	public void pagos (View view){
+    	Intent x =new Intent (this,PagomActivity.class);
+    	startActivity(x);
+    }
+
 	
 	
 

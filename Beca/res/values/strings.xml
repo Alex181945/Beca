@@ -34,15 +34,15 @@
 
     <!-- Activity Transporte -->
     <string name="title_activity_transporte">Transporte</string>
-    
-    
-    
+
     <!-- Activity FechaManActivity -->
-    
+
     <string name="title_activity_fecha_man">Fechas Manutención</string>
-  
-    
+
     <!-- Activity CalenManActivity -->
     <string name="title_activity_calen_man">Calendario Manutención</string>
+    <string name="title_activity_pagom">PagomActivity</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_derechos">DerechosActivity</string>
 
 </resources>

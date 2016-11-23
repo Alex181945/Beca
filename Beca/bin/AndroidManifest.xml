@@ -50,6 +50,14 @@
             android:name="com.example.beca.CalenManActivity"
             android:label="@string/title_activity_calen_man" >
         </activity>
+        <activity
+            android:name="com.example.beca.PagomActivity"
+            android:label="@string/title_activity_pagom" >
+        </activity>
+        <activity
+            android:name="com.example.beca.DerechosActivity"
+            android:label="@string/title_activity_derechos" >
+        </activity>
     </application>
 
 </manifest>
