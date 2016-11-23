@@ -58,6 +58,11 @@ String a = "";
     	startActivity(x);
     }
 	
+	public void cal (View view){
+    	Intent x =new Intent (this,CalenManActivity.class);
+    	startActivity(x);
+    }
+	
 	
 	
 

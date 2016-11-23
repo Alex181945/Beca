@@ -25,7 +25,7 @@ public class FechaManActivity extends Activity {
 	
 	
 	public void reg (View view){
-    	Intent x =new Intent (this,BecasActivity.class);
+    	Intent x =new Intent (this,CalenManActivity.class);
     	startActivity(x);
     }
 	
