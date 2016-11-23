@@ -38,7 +38,7 @@ public void doc (View view){
 		
 		 a = "1.Acuse generado por SUBES del registro a beca de Manutención,firmado por el aspirante.\n " +
 		 		"2. Constancia original de ingresos económicos mensuales por cada integrante" +
-		 		"que aporte al gasto del hogar, de máximo 3 meses de antigüedad.\n " +
+		 		"del hogar, de máximo 3 meses de antigüedad.\n " +
 		 		"3. Copia de un comprobante de domicilio (recibo de luz, agua,teléfono) " +
 		 		"de máximo 3 meses de antigüedad.\n " +
 		 		"4. Las alumnas que estén embarazadas, presentar constancia médica original" +
