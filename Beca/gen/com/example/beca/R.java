@@ -89,7 +89,6 @@ public final class R {
         public static final int becas=0x7f050007;
         public static final int bienvenida=0x7f050002;
         public static final int btmesaje=0x7f050004;
-        public static final int hello_world=0x7f050015;
         public static final int info=0x7f050006;
         public static final int mensaje=0x7f050003;
         public static final int req=0x7f05000b;
@@ -104,7 +103,9 @@ public final class R {
         /**  Activity CalenManActivity 
          */
         public static final int title_activity_calen_man=0x7f050013;
-        public static final int title_activity_derechos=0x7f050016;
+        /**  Activity DerechosActivity 
+         */
+        public static final int title_activity_derechos=0x7f050015;
         /**  Activity FechaManActivity 
          */
         public static final int title_activity_fecha_man=0x7f050012;
@@ -114,6 +115,8 @@ public final class R {
         /**  Activity Manutención 
          */
         public static final int title_activity_manutencion=0x7f05000a;
+        /**  Activity PagomActivity 
+         */
         public static final int title_activity_pagom=0x7f050014;
         /**  Activity Tips 
          */

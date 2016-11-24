@@ -41,8 +41,15 @@
 
     <!-- Activity CalenManActivity -->
     <string name="title_activity_calen_man">Calendario Manutención</string>
-    <string name="title_activity_pagom">PagomActivity</string>
-    <string name="hello_world">Hello world!</string>
-    <string name="title_activity_derechos">DerechosActivity</string>
+       
+    
+   <!-- Activity PagomActivity -->
+    
+    <string name="title_activity_pagom">Pagos Manutención</string>
+    
+    
+        <!-- Activity DerechosActivity -->
+    
+    <string name="title_activity_derechos">Derechos del Becario</string>
 
 </resources>
