@@ -60,26 +60,30 @@ public final class R {
     public static final class layout {
         public static final int activity_becas=0x7f030000;
         public static final int activity_calen_man=0x7f030001;
-        public static final int activity_derechos=0x7f030002;
-        public static final int activity_fecha_man=0x7f030003;
-        public static final int activity_inicio=0x7f030004;
-        public static final int activity_main=0x7f030005;
-        public static final int activity_manutencion=0x7f030006;
-        public static final int activity_pagom=0x7f030007;
-        public static final int activity_tips=0x7f030008;
-        public static final int activity_transporte=0x7f030009;
+        public static final int activity_calen_trans=0x7f030002;
+        public static final int activity_derechos=0x7f030003;
+        public static final int activity_fecha_man=0x7f030004;
+        public static final int activity_fechat=0x7f030005;
+        public static final int activity_inicio=0x7f030006;
+        public static final int activity_main=0x7f030007;
+        public static final int activity_manutencion=0x7f030008;
+        public static final int activity_pagom=0x7f030009;
+        public static final int activity_tips=0x7f03000a;
+        public static final int activity_transporte=0x7f03000b;
     }
     public static final class menu {
         public static final int becas=0x7f070000;
         public static final int calen_man=0x7f070001;
-        public static final int derechos=0x7f070002;
-        public static final int fecha_man=0x7f070003;
-        public static final int inicio=0x7f070004;
-        public static final int main=0x7f070005;
-        public static final int manutencion=0x7f070006;
-        public static final int pagom=0x7f070007;
-        public static final int tips=0x7f070008;
-        public static final int transporte=0x7f070009;
+        public static final int calen_trans=0x7f070002;
+        public static final int derechos=0x7f070003;
+        public static final int fecha_man=0x7f070004;
+        public static final int fechat=0x7f070005;
+        public static final int inicio=0x7f070006;
+        public static final int main=0x7f070007;
+        public static final int manutencion=0x7f070008;
+        public static final int pagom=0x7f070009;
+        public static final int tips=0x7f07000a;
+        public static final int transporte=0x7f07000b;
     }
     public static final class string {
         public static final int action_settings=0x7f050001;
@@ -103,12 +107,18 @@ public final class R {
         /**  Activity CalenManActivity 
          */
         public static final int title_activity_calen_man=0x7f050013;
+        /**  Activity CalenTransActivity 
+         */
+        public static final int title_activity_calen_trans=0x7f050016;
         /**  Activity DerechosActivity 
          */
         public static final int title_activity_derechos=0x7f050015;
         /**  Activity FechaManActivity 
          */
         public static final int title_activity_fecha_man=0x7f050012;
+        /**  Activity CalenTransActivity 
+         */
+        public static final int title_activity_fechat=0x7f050017;
         /**  Activity Inicio 
          */
         public static final int title_activity_inicio=0x7f050005;

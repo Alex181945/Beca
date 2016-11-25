@@ -58,6 +58,14 @@
             android:name="com.example.beca.DerechosActivity"
             android:label="@string/title_activity_derechos" >
         </activity>
+        <activity
+            android:name="com.example.beca.CalenTransActivity"
+            android:label="@string/title_activity_calen_trans" >
+        </activity>
+        <activity
+            android:name="com.example.beca.FechatActivity"
+            android:label="@string/title_activity_fechat" >
+        </activity>
     </application>
 
 </manifest>

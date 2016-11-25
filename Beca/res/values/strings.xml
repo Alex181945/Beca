@@ -37,19 +37,27 @@
 
     <!-- Activity FechaManActivity -->
 
-    <string name="title_activity_fecha_man">Fechas Manutención</string>
+    <string name="title_activity_fecha_man">Fechas Beca Manutención</string>
 
     <!-- Activity CalenManActivity -->
+
     <string name="title_activity_calen_man">Calendario Manutención</string>
-       
-    
-   <!-- Activity PagomActivity -->
-    
+
+    <!-- Activity PagomActivity -->
+
     <string name="title_activity_pagom">Pagos Manutención</string>
-    
-    
-        <!-- Activity DerechosActivity -->
-    
+
+    <!-- Activity DerechosActivity -->
+
     <string name="title_activity_derechos">Derechos del Becario</string>
+
+    <!-- Activity CalenTransActivity -->
+
+    <string name="title_activity_calen_trans">Calendario Transporte</string>
+    
+    
+    <!-- Activity CalenTransActivity -->
+    <string name="title_activity_fechat">Fechas Beca Transporte</string>
+    
 
 </resources>
