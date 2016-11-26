@@ -60,7 +60,9 @@
 
     <!-- Activity pagotActivity -->
     <string name="title_activity_pagot">Pagos de Beca Transporte </string>
-    <string name="title_activity_derechost">DerechostActivity</string>
-    <string name="hello_world">Hello world!</string>
+    
+        <!-- Activity DerechostActivity -->
+    
+    <string name="title_activity_derechost">Derechos del Becario</string>
 
 </resources>

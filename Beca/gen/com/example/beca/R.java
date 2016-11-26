@@ -98,7 +98,6 @@ public final class R {
         public static final int becas=0x7f050007;
         public static final int bienvenida=0x7f050002;
         public static final int btmesaje=0x7f050004;
-        public static final int hello_world=0x7f05001a;
         public static final int info=0x7f050006;
         public static final int mensaje=0x7f050003;
         public static final int req=0x7f05000b;
@@ -119,6 +118,8 @@ public final class R {
         /**  Activity DerechosActivity 
          */
         public static final int title_activity_derechos=0x7f050015;
+        /**  Activity DerechostActivity 
+         */
         public static final int title_activity_derechost=0x7f050019;
         /**  Activity FechaManActivity 
          */
