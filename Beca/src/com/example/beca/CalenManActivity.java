@@ -45,7 +45,7 @@ public void doc (View view){
 		 		"que lo acredite.\n " +
 		 		"5. Los alumnos que sean padres o madres, presentar copia del acta de nacimiento de los hijos.\n" +
 		 		"6. Los estudiantes que tengan alguna discapacidad, presentar constancia" +
-		 		"médica original que acredite que tiene alguna discapacidad motriz, visual o auditiva";
+		 		"médica original que acredite que tiene alguna discapacidad motriz, visual o auditiva.";
 
 		}
 		

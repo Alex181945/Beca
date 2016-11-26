@@ -27,7 +27,7 @@ public class PagotActivity extends Activity {
     }
 	
 	public void reg (View view){
-    	Intent x =new Intent (this,CalenTransActivity.class);
+    	Intent x =new Intent (this,FechatActivity.class);
     	startActivity(x);
     }
 

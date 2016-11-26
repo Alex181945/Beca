@@ -35,17 +35,14 @@ public void doc (View view){
 		
 		
 		 a = "1. Constancia original de ingresos económicos mensuales por cada integrante" +
-		 		"que aporte al gasto del hogar, de máximo 3 meses de antigüedad desde la" +
-		 		"fecha de publicación de esta convocatoria. Se consideran como válidos los" +
-		 		"siguientes comprobantes:\n" +
+		 		"que aporte al gasto del hogar.\n" +
 		 		"a) Comprobante original de ingreso mensual expedido por la fuente de" +
 		 		"trabajo de cada integrante que aporte al gasto del hogar.\n" +
 		 		"b) En caso de recibir pago mediante cheque o efectivo, podrá" +
-		 		"presentarse copia de los recibos de un mes; y/o \n" +
+		 		"presentarse copia de los recibos de un mes. \n" +
 		 		"c) Carta original del alumno en la que manifieste, bajo protesta de decir" +
-		 		"verdad, el ingreso mensual percibido por cada integrante que aporte" +
-		 		"al gasto del hogar. En caso de que el alumno sea menor de edad," +
-		 		"dicha carta deberá ser expedida por el responsable o tutor." +
+		 		"verdad, en caso de que el alumno sea menor de edad," +
+		 		"dicha carta deberá ser expedida por el tutor." +
 		 		"2. Los alumnos pertenecientes a familias beneficiadas de PROSPERA," +
 		 		"Programa de Inclusión Social, presentar copia de su formato para" +
 		 		"acreditar que pertenecen al programa.";

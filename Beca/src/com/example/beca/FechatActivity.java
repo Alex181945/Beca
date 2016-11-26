@@ -22,7 +22,7 @@ public class FechatActivity extends Activity {
 	}
 	
 	public void reg (View view){
-    	Intent x =new Intent (this,CalenManActivity.class);
+    	Intent x =new Intent (this,CalenTransActivity.class);
     	startActivity(x);
     }
 	
