@@ -35,6 +35,7 @@ public final class R {
         public static final int ic_launcher=0x7f020006;
         public static final int pagom=0x7f020007;
         public static final int pagot=0x7f020008;
+        public static final int pagotr=0x7f020009;
     }
     public static final class id {
         public static final int action_settings=0x7f080012;
