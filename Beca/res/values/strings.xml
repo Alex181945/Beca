@@ -45,7 +45,7 @@
 
     <!-- Activity PagomActivity -->
 
-    <string name="title_activity_pagom">Pagos Manutención</string>
+    <string name="title_activity_pagom">Pagos de Beca Manutención</string>
 
     <!-- Activity DerechosActivity -->
 
@@ -54,10 +54,13 @@
     <!-- Activity CalenTransActivity -->
 
     <string name="title_activity_calen_trans">Calendario Transporte</string>
-    
-    
+
     <!-- Activity CalenTransActivity -->
     <string name="title_activity_fechat">Fechas Beca Transporte</string>
-    
+
+    <!-- Activity pagotActivity -->
+    <string name="title_activity_pagot">Pagos de Beca Transporte </string>
+    <string name="title_activity_derechost">DerechostActivity</string>
+    <string name="hello_world">Hello world!</string>
 
 </resources>

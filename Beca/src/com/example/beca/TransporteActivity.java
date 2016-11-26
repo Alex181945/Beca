@@ -46,6 +46,11 @@ String a = "";
     	Intent x =new Intent (this,BecasActivity.class);
     	startActivity(x);
     }
+
 	
+	public void cal (View view){
+    	Intent x =new Intent (this,CalenTransActivity.class);
+    	startActivity(x);
+    }
 
 }

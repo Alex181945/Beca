@@ -27,7 +27,7 @@ public class FechatActivity extends Activity {
     }
 	
 	public void pagos (View view){
-    	Intent x =new Intent (this,PagomActivity.class);
+    	Intent x =new Intent (this,PagotActivity.class);
     	startActivity(x);
     }
 

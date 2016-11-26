@@ -66,6 +66,14 @@
             android:name="com.example.beca.FechatActivity"
             android:label="@string/title_activity_fechat" >
         </activity>
+        <activity
+            android:name="com.example.beca.PagotActivity"
+            android:label="@string/title_activity_pagot" >
+        </activity>
+        <activity
+            android:name="com.example.beca.DerechostActivity"
+            android:label="@string/title_activity_derechost" >
+        </activity>
     </application>
 
 </manifest>
