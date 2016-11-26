@@ -19,7 +19,11 @@ public class BecasActivity extends Activity {
 		
 		tv4 = (TextView) findViewById(R.id.tv4);
 	}
-
+	
+	
+	
+	
+	
 	@Override
 	public boolean onCreateOptionsMenu(Menu menu) {
 		// Inflate the menu; this adds items to the action bar if it is present.
