@@ -58,6 +58,17 @@
         android:layout_below="@+id/tv4"
         android:text="@string/mensaje" />
     
+    <TextView
+        android:id="@+id/tv6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="Inconsolata"
+        android:gravity="center"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/tv5"
+        android:autoLink="web"
+        android:text="@string/prueba" />
+    
     <Button
         android:id="@+id/btn1" 
         android:layout_width="wrap_content"
