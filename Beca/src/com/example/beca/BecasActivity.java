@@ -4,7 +4,6 @@ import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.Menu;
-import android.view.MenuItem;
 import android.view.View;
 import android.widget.TextView;
 
@@ -41,13 +40,11 @@ public void regis (View view){
 		 a = 
 				"Para el registro en el SUBES deberán contar con:\n" +
 				"a)	Clave Única de Registro de Población (CURP) actualizada, " +
-				"la cual deberá verificarse en la página electrónica:\n" +
-				"https://consultas.curp.gob.mx/CurpSP/gobmx/inicio.jsp\n" +
+				"la cual deberá verificarse en la página electrónica.\n" +
 				"b)	Cuenta personal activa de correo electrónico.\n" +
 				"c)	Ficha escolar actualizada por parte de su IPES y activada por " +
 				"el propio estudiante desde su cuenta en el SUBES, " +
-				"en el menú “Perfil”, apartado “Información escolar”.\n" +
-				"(http://www.cnbes.sep.gob.mx/2-principal/49-reg_subes)";
+				"en el menú “Perfil”, apartado “Información escolar”.\n";
 	}
 		
 		tv4.setText(a);

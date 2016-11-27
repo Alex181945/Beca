@@ -7,7 +7,7 @@
     <string name="bienvenida">BIENVENIDO</string>
     <string name="mensaje">Bienvenido al 
         Sistema Único de Beneficiarios de Educación Superior (SUBES)</string>
-    <string name="prueba">www.google.com</string>    
+        
     <string name="btmesaje">Convocatoria</string>
 
     <!-- Activity Inicio -->
@@ -20,7 +20,12 @@
     <!-- Activity Becas -->
 
     <string name="title_activity_becas">Becas</string>
-
+    <string name="curp">https://consultas.curp.gob.mx</string>
+    <string name="cnbes">www.cnbes.sep.gob.mx</string>
+    
+    
+     
+    
     <!-- Activity Manutención -->
 
     <string name="title_activity_manutencion">Manutencion</string>
@@ -51,6 +56,8 @@
     <!-- Activity DerechosActivity -->
 
     <string name="title_activity_derechos">Derechos del Becario</string>
+        <string name="cnbes1">www.cnbes.sep.gob.mx</string>
+    
 
     <!-- Activity CalenTransActivity -->
 
@@ -65,5 +72,7 @@
         <!-- Activity DerechostActivity -->
     
     <string name="title_activity_derechost">Derechos del Becario</string>
+        <string name="cnbes2">www.cnbes.sep.gob.mx</string>
+    
 
 </resources>

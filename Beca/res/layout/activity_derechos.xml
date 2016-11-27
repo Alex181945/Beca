@@ -65,6 +65,18 @@
         android:layout_below="@+id/fl1"
         android:onClick="reg"
         android:text="Regresar" />
+    
+     <TextView
+        android:id="@+id/tv5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="Inconsolata"
+        android:gravity="center"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/btn2"
+        android:autoLink="web"
+        android:text="@string/cnbes1"
+      />
        
     
 </RelativeLayout>

@@ -43,7 +43,7 @@ public final class R {
         public static final int btn1=0x7f080007;
         public static final int btn2=0x7f080008;
         public static final int btn3=0x7f080009;
-        public static final int btn4=0x7f08000d;
+        public static final int btn4=0x7f08000e;
         public static final int btn5=0x7f080011;
         public static final int fl1=0x7f080005;
         public static final int tv0=0x7f080000;
@@ -55,7 +55,7 @@ public final class R {
         public static final int tv5=0x7f08000a;
         public static final int tv6=0x7f08000b;
         public static final int tv7=0x7f08000c;
-        public static final int tv8=0x7f08000e;
+        public static final int tv8=0x7f08000d;
         public static final int tv9=0x7f08000f;
     }
     public static final class layout {
@@ -95,57 +95,60 @@ public final class R {
         /**  Activity Main 
          */
         public static final int app_name=0x7f050000;
-        public static final int becas=0x7f050008;
+        public static final int becas=0x7f050007;
         public static final int bienvenida=0x7f050002;
-        public static final int btmesaje=0x7f050005;
-        public static final int info=0x7f050007;
+        public static final int btmesaje=0x7f050004;
+        public static final int cnbes=0x7f05000b;
+        public static final int cnbes1=0x7f050018;
+        public static final int cnbes2=0x7f05001d;
+        public static final int curp=0x7f05000a;
+        public static final int info=0x7f050006;
         public static final int mensaje=0x7f050003;
-        public static final int prueba=0x7f050004;
-        public static final int req=0x7f05000c;
-        public static final int tip1=0x7f05000e;
-        public static final int tip2=0x7f05000f;
-        public static final int tip3=0x7f050010;
-        public static final int tip4=0x7f050011;
-        public static final int tips=0x7f050009;
+        public static final int req=0x7f05000d;
+        public static final int tip1=0x7f05000f;
+        public static final int tip2=0x7f050010;
+        public static final int tip3=0x7f050011;
+        public static final int tip4=0x7f050012;
+        public static final int tips=0x7f050008;
         /**  Activity Becas 
          */
-        public static final int title_activity_becas=0x7f05000a;
+        public static final int title_activity_becas=0x7f050009;
         /**  Activity CalenManActivity 
          */
-        public static final int title_activity_calen_man=0x7f050014;
+        public static final int title_activity_calen_man=0x7f050015;
         /**  Activity CalenTransActivity 
          */
-        public static final int title_activity_calen_trans=0x7f050017;
+        public static final int title_activity_calen_trans=0x7f050019;
         /**  Activity DerechosActivity 
          */
-        public static final int title_activity_derechos=0x7f050016;
+        public static final int title_activity_derechos=0x7f050017;
         /**  Activity DerechostActivity 
          */
-        public static final int title_activity_derechost=0x7f05001a;
+        public static final int title_activity_derechost=0x7f05001c;
         /**  Activity FechaManActivity 
          */
-        public static final int title_activity_fecha_man=0x7f050013;
+        public static final int title_activity_fecha_man=0x7f050014;
         /**  Activity CalenTransActivity 
          */
-        public static final int title_activity_fechat=0x7f050018;
+        public static final int title_activity_fechat=0x7f05001a;
         /**  Activity Inicio 
          */
-        public static final int title_activity_inicio=0x7f050006;
+        public static final int title_activity_inicio=0x7f050005;
         /**  Activity Manutención 
          */
-        public static final int title_activity_manutencion=0x7f05000b;
+        public static final int title_activity_manutencion=0x7f05000c;
         /**  Activity PagomActivity 
          */
-        public static final int title_activity_pagom=0x7f050015;
+        public static final int title_activity_pagom=0x7f050016;
         /**  Activity pagotActivity 
          */
-        public static final int title_activity_pagot=0x7f050019;
+        public static final int title_activity_pagot=0x7f05001b;
         /**  Activity Tips 
          */
-        public static final int title_activity_tips=0x7f05000d;
+        public static final int title_activity_tips=0x7f05000e;
         /**  Activity Transporte 
          */
-        public static final int title_activity_transporte=0x7f050012;
+        public static final int title_activity_transporte=0x7f050013;
     }
     public static final class style {
         /** 

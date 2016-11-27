@@ -66,6 +66,7 @@
         android:gravity="center" />
         
     </FrameLayout>
+   
     
     <Button
         android:id="@+id/btn1"
@@ -102,19 +103,39 @@
         android:layout_below="@+id/btn3"
       />
     
-     <TextView
+        <TextView
         android:id="@+id/tv6"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:fontFamily="Inconsolata"
+        android:gravity="center"
+        android:layout_centerHorizontal="true"
         android:layout_below="@+id/tv5"
-      />
+        android:autoLink="web"
+        android:text="@string/curp" />
+
      
      <TextView
         android:id="@+id/tv7"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:fontFamily="Inconsolata"
+        android:gravity="center"
+        android:layout_centerHorizontal="true"
         android:layout_below="@+id/tv6"
+        android:autoLink="web"
+        android:text="@string/cnbes"
       />
+     
+     
+     <TextView
+        android:id="@+id/tv8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv7"
+      />
+     
+     
     
     
 

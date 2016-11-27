@@ -39,9 +39,8 @@ public void leer (View view){
 		 		" Acuerdo número 16/12/15 por el que se emiten las Reglas de Operación del " +
 		 		"Programa Nacional de Becas para el ejercicio fiscal 2016, publicado en el Diario Oficial " +
 		 		"de la Federación el 30 de diciembre de 2015 en el numeral 3.5, el cual puede " +
-		 		"consultarse en la página de la CNBES: www.cnbes.sep.gob.mx, en su sección BECARIOS, " +
-		 		"opción Derechos, obligaciones, suspensiones y cancelaciones.\n" +
-		 		" (http://www.cnbes.sep.gob.mx/2-principal/142-derechos_obligaciones_2016)";
+		 		"consultarse en la página de la CNBES,en su sección BECARIOS, " +
+		 		"opción Derechos, obligaciones, suspensiones y cancelaciones.";
 		}
 		
 		tv4.setText(a);
