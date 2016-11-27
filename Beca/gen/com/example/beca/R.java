@@ -43,7 +43,7 @@ public final class R {
         public static final int btn1=0x7f080007;
         public static final int btn2=0x7f080008;
         public static final int btn3=0x7f080009;
-        public static final int btn4=0x7f08000e;
+        public static final int btn4=0x7f08000f;
         public static final int btn5=0x7f080011;
         public static final int fl1=0x7f080005;
         public static final int tv0=0x7f080000;
@@ -56,7 +56,7 @@ public final class R {
         public static final int tv6=0x7f08000b;
         public static final int tv7=0x7f08000c;
         public static final int tv8=0x7f08000d;
-        public static final int tv9=0x7f08000f;
+        public static final int tv9=0x7f08000e;
     }
     public static final class layout {
         public static final int activity_becas=0x7f030000;
