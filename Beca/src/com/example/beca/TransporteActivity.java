@@ -25,6 +25,7 @@ public class TransporteActivity extends Activity {
 		return true;
 	}
 	
+	
 public void req(View view){
 	
 String a = "";
@@ -40,8 +41,6 @@ String a = "";
 		
 		tv4.setText(a);
 }
-
-
 	public void reg (View view){
     	Intent x =new Intent (this,BecasActivity.class);
     	startActivity(x);

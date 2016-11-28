@@ -1,7 +1,5 @@
 package com.example.beca;
 
-
-
 import android.os.Bundle;
 import android.app.Activity;
 import android.content.Intent;
@@ -26,7 +24,6 @@ public class TipsActivity extends Activity {
 		  tv5=(TextView) findViewById(R.id.tv5);
 		  tv6=(TextView) findViewById(R.id.tv6);
 		  tv7=(TextView) findViewById(R.id.tv7);
-
 		  
 	}
 	
@@ -36,7 +33,6 @@ public class TipsActivity extends Activity {
 		getMenuInflater().inflate(R.menu.tips, menu);
 		return true;
 	}
-	
 	public void Manut(View view){
 		Intent x =new Intent (this,ManutencionActivity.class);
     	startActivity(x);
@@ -86,23 +82,25 @@ public class TipsActivity extends Activity {
 	    	tv5.setText(tip2);
 	    }
 	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
 	 public void tip3 (View view){
-	    	
 	    	String tip3 = "";
-	    	
 	    	if(tv6.getText().toString().equals("")){
 	    		
-	    		tip3 =
+	        tip3 =
 	    				"CREAR MAPAS MENTAL\n" +
 	    				"Los mapas mentales son una de las mejores formas de" +
 	    				"recordar la estructura de un contenido.\n" +
 	    				"Si tienes que desarrollar largos temas, te resultará una herramienta excelente.";
 	    	}
-	    	
-	    	tv6.setText(tip3);
-	    }
-	 
-	 
+	    tv6.setText(tip3);
+	 }
 	 public void tip4 (View view){
 	    	
 	    	String tip4 = "";
@@ -115,12 +113,6 @@ public class TipsActivity extends Activity {
 	    				" de estar en silencio, esto te ayudará a retener la información.";
 
 	    	}
-	    	
 	    	tv7.setText(tip4);
 	    }
-	 
- 
-	 
-	 
-
-}
+	}

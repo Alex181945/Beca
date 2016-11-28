@@ -8,9 +8,8 @@ import android.view.View;
 import android.widget.TextView;
 
 public class CalenTransActivity extends Activity {
-	
 	TextView tv4;
-
+	
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
@@ -25,15 +24,16 @@ public class CalenTransActivity extends Activity {
 		getMenuInflater().inflate(R.menu.calen_trans, menu);
 		return true;
 	}
+	
+	
+	
+	
+	
+	
 public void doc (View view){
-		
 		String a = "";
-		
 		if(tv4.getText().toString().equals(""))
 		{
-		
-		
-		
 		 a = "1. Constancia original de ingresos económicos mensuales por cada integrante" +
 		 		"que aporte al gasto del hogar.\n" +
 		 		"a) Comprobante original de ingreso mensual expedido por fuente de" +
@@ -46,11 +46,8 @@ public void doc (View view){
 		 		"2. Los alumnos pertenecientes a familias beneficiadas de PROSPERA," +
 		 		"Programa de Inclusión Social, presentar copia de su formato para" +
 		 		"acreditar que pertenecen al programa.";
-
 		}
-		
 		tv4.setText(a);
-		
 	}
 public void reg (View view){
 	Intent x =new Intent (this,TransporteActivity.class);

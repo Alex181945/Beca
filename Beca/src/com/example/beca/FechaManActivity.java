@@ -1,7 +1,4 @@
 package com.example.beca;
-
-
-
 import android.os.Bundle;
 import android.app.Activity;
 import android.content.Intent;
@@ -33,8 +30,4 @@ public class FechaManActivity extends Activity {
     	Intent x =new Intent (this,PagomActivity.class);
     	startActivity(x);
     }
-
-	
-	
-
 }

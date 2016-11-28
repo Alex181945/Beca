@@ -10,19 +10,15 @@ import android.widget.TextView;
 public class BecasActivity extends Activity {
 	
 	TextView tv4;
-
-	@Override
+	
+@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_becas);
 		
 		tv4 = (TextView) findViewById(R.id.tv4);
 	}
-	
-	
-	
-	
-	
+
 	@Override
 	public boolean onCreateOptionsMenu(Menu menu) {
 		// Inflate the menu; this adds items to the action bar if it is present.
@@ -34,11 +30,7 @@ public void regis (View view){
 	String a = "";
 	
 	if(tv4.getText().toString().equals(""))
-	{
-		
-		
-		 a = 
-				"Para el registro en el SUBES deberán contar con:\n" +
+	{    a =    "Para el registro en el SUBES deberán contar con:\n" +
 				"a)	Clave Única de Registro de Población (CURP) actualizada, " +
 				"la cual deberá verificarse en la página electrónica.\n" +
 				"b)	Cuenta personal activa de correo electrónico.\n" +

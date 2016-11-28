@@ -3,9 +3,6 @@
     android:layout_height="fill_parent"
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools">
-    
-    
-    
     <RelativeLayout 
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -37,8 +34,6 @@
         android:layout_centerHorizontal="true"
         android:layout_below="@+id/tv2"
        />
-    
-    
      <TextView
         android:id="@id/tv4"
         android:layout_width="wrap_content"
@@ -47,8 +42,6 @@
         android:layout_below="@+id/tv3"
         android:text="Fechas"
        />
-     
-     
      <FrameLayout
         android:id="@+id/fl1"
         android:layout_width="match_parent"

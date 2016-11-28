@@ -25,6 +25,7 @@ public class DerechostActivity extends Activity {
 		return true;
 	}
 	
+	
 public void leer (View view){
 		
 		String a = "";
@@ -49,10 +50,6 @@ public void reg (View view){
 	Intent x =new Intent (this,PagotActivity.class);
 	startActivity(x);
 }
-	
-	
-	
-
 }
 
 

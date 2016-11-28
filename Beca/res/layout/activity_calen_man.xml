@@ -3,8 +3,6 @@
     android:layout_height="fill_parent"
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools">
-    
-    
     <RelativeLayout 
     android:layout_width="match_parent"
     android:layout_height="460dp"
@@ -36,7 +34,6 @@
         android:layout_centerHorizontal="true"
         android:layout_below="@+id/tv2"
         />
-    
     <Button
         android:id="@+id/btn1"
         android:layout_width="wrap_content"
@@ -46,21 +43,18 @@
         android:layout_below="@+id/tv3"
         android:onClick="doc"
         android:text="Documentación" />
-    
-     
-   
     <FrameLayout
         android:id="@+id/fl1"
         android:layout_width="match_parent"
         android:layout_height="300dp"
         android:layout_below="@+id/btn1" >
-        
         <TextView
         android:id="@+id/tv4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:fontFamily="Inconsolata"
         android:gravity="center" />
+       
        
         
     </FrameLayout>
@@ -74,8 +68,7 @@
         android:layout_centerHorizontal="true"
         android:onClick="FecMan"
         android:text="Fechas" />
-    
-        <Button
+     <Button
         android:id="@+id/btn3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -84,17 +77,11 @@
         android:layout_centerHorizontal="true"
         android:onClick="reg"
         android:text="Regresar" />
-    
-    <TextView
+     <TextView
         android:id="@+id/tv5"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@+id/btn3"
-       
       />
-    
-    
-    
-
 </RelativeLayout>
 </ScrollView>

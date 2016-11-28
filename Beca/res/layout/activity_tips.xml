@@ -14,7 +14,6 @@
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context=".TipsActivity" >
-
     <TextView
         android:id="@+id/tv1"
         android:layout_width="wrap_content"
@@ -26,8 +25,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
-        android:layout_below="@+id/tv1"
-        />
+        android:layout_below="@+id/tv1"  />
+    
     
     <TextView
         android:id="@+id/tv3"
@@ -53,6 +52,7 @@
         android:layout_height="wrap_content"
         android:layout_below="@+id/btn1"
         />
+     
     
      <Button
         android:id="@+id/btn2"
@@ -106,29 +106,26 @@
         android:layout_below="@+id/btn4"
         />
      
+     
+     
      <TextView
         android:id="@+id/tv8"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
-        android:layout_below="@+id/tv7"
-        />
-     
+        android:layout_below="@+id/tv7" />
      <TextView
         android:id="@+id/tv9"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
-        android:layout_below="@+id/tv8"
-        />
+        android:layout_below="@+id/tv8"/>
      <TextView
         android:id="@+id/tv10"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
-        android:layout_below="@+id/tv9"
-        />
-    
+        android:layout_below="@+id/tv9" />
      <Button
         android:id="@+id/btn5"
         android:layout_width="wrap_content"
@@ -139,11 +136,7 @@
         android:onClick="reg"
         android:text="Regresar"   />
     
-    
-    
-    
-    
-    
+ 
 
 </RelativeLayout>
 </ScrollView>

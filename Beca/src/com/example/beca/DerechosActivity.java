@@ -10,15 +10,12 @@ import android.widget.TextView;
 public class DerechosActivity extends Activity {
 	
 	TextView tv4;
-
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_derechos);
-		
-		tv4 = (TextView) findViewById(R.id.tv4);
+			tv4 = (TextView) findViewById(R.id.tv4);
 	}
-
 	@Override
 	public boolean onCreateOptionsMenu(Menu menu) {
 		// Inflate the menu; this adds items to the action bar if it is present.
@@ -32,8 +29,6 @@ public void leer (View view){
 		
 		if(tv4.getText().toString().equals(""))
 		{
-		
-		
 		
 		 a = "Los becarios adquieren los derechos y las obligaciones especificados en el" +
 		 		" Acuerdo número 16/12/15 por el que se emiten las Reglas de Operación del " +
@@ -50,8 +45,5 @@ public void reg(View view){
 	Intent x =new Intent (this,PagomActivity.class);
 	startActivity(x);
 }
-	
-	
-	
 
 }

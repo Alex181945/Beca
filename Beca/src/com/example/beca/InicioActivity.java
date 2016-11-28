@@ -18,6 +18,7 @@ public class InicioActivity extends Activity {
 		
 		tv3 = (TextView) findViewById(R.id.tv3);
 	}
+	
 
 	@Override
 	public boolean onCreateOptionsMenu(Menu menu) {

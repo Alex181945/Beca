@@ -32,11 +32,7 @@ public void doc (View view){
 		String a = "";
 		
 		if(tv4.getText().toString().equals(""))
-		{
-		
-		
-		
-		 a = "1.Acuse generado por SUBES del registro a beca de Manutención,firmado por el aspirante.\n " +
+		{ a = "1.Acuse generado por SUBES del registro a beca de Manutención,firmado por el aspirante.\n " +
 		 		"2. Constancia original de ingresos económicos mensuales por cada integrante" +
 		 		"del hogar, de máximo 3 meses de antigüedad.\n " +
 		 		"3. Copia de un comprobante de domicilio (recibo de luz, agua,teléfono) " +
@@ -52,6 +48,9 @@ public void doc (View view){
 		tv4.setText(a);
 		
 	}
+
+
+
 
 
 public void reg (View view){

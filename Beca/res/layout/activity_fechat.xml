@@ -3,7 +3,6 @@
     android:layout_height="fill_parent"
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools">
-    
 
 <RelativeLayout
     
@@ -15,7 +14,6 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     android:background="@drawable/fecha1"
     tools:context=".FechatActivity" >
-
     
     <TextView
         android:id ="@+id/tv1"
@@ -30,17 +28,14 @@
         android:layout_centerHorizontal="true"
         android:layout_below="@+id/tv1"
        />
-    
-    <TextView
+   <TextView
         android:id="@id/tv3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
         android:layout_below="@+id/tv2"
        />
-    
-    
-     <TextView
+      <TextView
         android:id="@id/tv4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -48,14 +43,11 @@
         android:layout_below="@+id/tv3"
         android:text="Fechas"
        />
-     
-     
-     <FrameLayout
+      <FrameLayout
         android:id="@+id/fl1"
         android:layout_width="match_parent"
         android:layout_height="300dp"
         android:layout_below="@+id/tv4" >
-        
         <TextView
         android:id="@+id/tv5"
         android:layout_width="wrap_content"
@@ -65,6 +57,9 @@
         
     </FrameLayout>
     
+      
+      
+      
     <Button
         android:id="@+id/btn1"
         android:layout_width="wrap_content"
@@ -85,9 +80,12 @@
         android:onClick="reg"
         android:text="Regresar" />
     
-    
+  
     
 
 </RelativeLayout>
 </ScrollView>
+
+
+
 

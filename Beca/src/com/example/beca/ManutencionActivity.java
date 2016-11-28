@@ -11,7 +11,6 @@ public class ManutencionActivity extends Activity {
 	
 	TextView  tv4;
 	
-
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
@@ -25,6 +24,7 @@ public class ManutencionActivity extends Activity {
 		// Inflate the menu; this adds items to the action bar if it is present.
 		getMenuInflater().inflate(R.menu.manutencion, menu);
 		return true;
+	
 	}
 public void req(View view){
 	
@@ -33,9 +33,6 @@ String a = "";
 	
 	if(tv4.getText().toString().equals(""))
 	{
-	
-	
-		
 		 a = "1. Ser mexicano.\n"+
         "2. Estar inscrito en una IPES de México para iniciar o continuar estudios de nivel superior.\n"+
         "3. Provenir de un hogar cuyo ingreso sea igual o menor a cuatro salarios mínimos per cápita (por persona) " +
@@ -46,14 +43,10 @@ String a = "";
         "7. Postularse como aspirante a través del registro de su solicitud de beca en el " +
         "Sistema Único de Beneficiarios de Educación Superior (SUBES).";
 	}
-
-
-		
 		tv4.setText(a);
 }
 
-
-	public void reg (View view){
+public void reg (View view){
     	Intent x =new Intent (this,BecasActivity.class);
     	startActivity(x);
     }
@@ -62,8 +55,4 @@ String a = "";
     	Intent x =new Intent (this,CalenManActivity.class);
     	startActivity(x);
     }
-	
-	
-	
-
 }
