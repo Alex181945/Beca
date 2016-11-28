@@ -3,6 +3,7 @@
     android:layout_height="fill_parent"
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools">
+    
      <RelativeLayout
      android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -44,7 +45,7 @@
       <FrameLayout
         android:id="@+id/fl1"
         android:layout_width="match_parent"
-        android:layout_height="300dp"
+        android:layout_height="230dp"
         android:layout_below="@+id/btn1" >
         
         <TextView

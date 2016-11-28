@@ -54,10 +54,10 @@
         android:text="Registro" />
     
      <FrameLayout
-        android:id="@+id/fl1"
-        android:layout_width="match_parent"
-        android:layout_height="300dp"
-        android:layout_below="@+id/btn0" >
+         android:id="@+id/fl1"
+         android:layout_width="match_parent"
+         android:layout_height="180dp"
+         android:layout_below="@+id/btn0" >
         
         <TextView
         android:id="@+id/tv4"
