@@ -33,9 +33,6 @@ public class InicioActivity extends Activity {
 		
 		if(tv3.getText().toString().equals(""))
 		{
-		
-		
-		
 		 a = "La Coordinación Nacional de Becas de Educación Superior (CNBES) C O N V O C A N,"
 				+ " a los/las estudiantes de Licenciatura y Técnico Superior Universitario (TSU)"
 				+ " que hayan ingresado o se encuentren realizando estudios en "
@@ -46,7 +43,6 @@ public class InicioActivity extends Activity {
 		tv3.setText(a);
 		
 	}
-	
 	public void Becas(View view){
 		Intent x =new Intent (this,BecasActivity.class);
     	startActivity(x);
@@ -56,12 +52,6 @@ public class InicioActivity extends Activity {
 		Intent x =new Intent (this,TipsActivity.class);
     	startActivity(x);
 	}
-	
-
-
-	
-	
-
 	}
 
 
