@@ -51,9 +51,11 @@
         android:layout_height="160dp"
         android:layout_below="@+id/btn1" >
         
-        <ImageView 
+        <ImageView
             android:id="@+id/iv1"
-            android:src="@drawable/subes460x150x"/>
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/subes460x150x" />
         
         <TextView
         android:id="@+id/tv3"
