@@ -5,10 +5,12 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.View;
+import android.widget.ImageView;
 import android.widget.TextView;
 
 public class BecasActivity extends Activity {
 	
+	ImageView img;
 	TextView tv4;
 	
 @Override
@@ -16,6 +18,7 @@ public class BecasActivity extends Activity {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_becas);
 		
+		img = (ImageView) findViewById(R.id.iv1);
 		tv4 = (TextView) findViewById(R.id.tv4);
 	}
 
@@ -30,7 +33,9 @@ public void regis (View view){
 	String a = "";
 	
 	if(tv4.getText().toString().equals(""))
-	{    a =    "Para el registro en el SUBES deberán contar con:\n" +
+	{   
+		img.setVisibility(0);
+		a =    "Para el registro en el SUBES deberán contar con:\n" +
 				"a)	Clave Única de Registro de Población (CURP) actualizada, " +
 				"la cual deberá verificarse en la página electrónica.\n" +
 				"b)	Cuenta personal activa de correo electrónico.\n" +
@@ -38,7 +43,7 @@ public void regis (View view){
 				"el propio estudiante desde su cuenta en el SUBES, " +
 				"en el menú “Perfil”, apartado “Información escolar”.\n";
 	}
-		
+		img.setVisibility(1);
 		tv4.setText(a);
 		
 	}
