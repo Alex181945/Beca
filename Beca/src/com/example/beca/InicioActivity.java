@@ -5,10 +5,12 @@ import android.app.Activity;
 import android.content.Intent;
 import android.view.Menu;
 import android.view.View;
+import android.widget.ImageView;
 import android.widget.TextView;
 
 public class InicioActivity extends Activity {
 	
+	ImageView img;
 	TextView tv3;
 
 	@Override
@@ -16,6 +18,7 @@ public class InicioActivity extends Activity {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_inicio);
 		
+		img = (ImageView) findViewById(R.id.iv1);
 		tv3 = (TextView) findViewById(R.id.tv3);
 	}
 	
@@ -33,6 +36,7 @@ public class InicioActivity extends Activity {
 		
 		if(tv3.getText().toString().equals(""))
 		{
+			img.setVisibility(0);
 		 a = "La Coordinación Nacional de Becas de Educación Superior (CNBES) C O N V O C A N,"
 				+ " a los/las estudiantes de Licenciatura y Técnico Superior Universitario (TSU)"
 				+ " que hayan ingresado o se encuentren realizando estudios en "
@@ -40,6 +44,7 @@ public class InicioActivity extends Activity {
 				+ "para que obtengan una beca de Manutención.";
 		}
 		
+		img.setVisibility(1);
 		tv3.setText(a);
 		
 	}
